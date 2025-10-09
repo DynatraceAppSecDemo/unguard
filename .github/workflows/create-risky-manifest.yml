@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update_secret:
+  update_bad_manifest:
     name: Update bad manifest
     runs-on: ubuntu-latest
     permissions:
