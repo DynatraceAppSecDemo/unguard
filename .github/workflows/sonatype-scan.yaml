@@ -26,7 +26,7 @@ jobs:
           iq-server-url: https://dev-integration-dynatrace.iq.sonatype.app
           username: ${{ secrets.LIFECYCLE_USERNAME }}
           password: ${{ secrets.LIFECYCLE_PASSWORD }}
-          application-id: unguard-dev
+          application-id: unguard-demo
           scan-targets: ./*
       # Print out the results
       - name: Log evaluate action output
